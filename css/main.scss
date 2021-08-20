@@ -44,6 +44,10 @@ body {
 	max-width: 1400px;
 	margin: 0 auto;
 }
+.container-2 {
+	max-width: 1150px;
+	margin: 0 auto;
+}
 .header {
 	display: flex;
     flex-direction: column;
@@ -98,16 +102,6 @@ body {
         &__right{
             display: none;
         }
-    }
-}
-@media screen and (min-width: 1190px){
-    .header{
-        align-items: center;
-    }
-}
-@media screen and (max-width: 1190px){
-    .header{
-        align-items: flex-start;
     }
 }
 .burger{
@@ -295,11 +289,6 @@ body {
     }
     &__right-block{
         text-align: center;
-    }
-    @media screen and (min-width: 1245px){
-        &__right-block{
-            margin-right: 100px;
-        } 
     }
     @media screen and (max-width: 1245px){
         &__right-block{
